@@ -58,17 +58,6 @@ Ik schrijf testbestanden per functie in de `tests/` map, en compileer zoals:
 
 ```bash
 gcc -Wall -Wextra -Werror src/ft_strlen.c tests/main_strlen.c -o test_strlen
-./test_strlen
-```
-
----
-
-## 🤖 GitHub Copilot instructies
-
-Ik gebruik Copilot, maar onder duidelijke voorwaarden:
-
-> "Alleen minimale suggesties. Niet afmaken. Laat me nadenken. Vraag me waarom iets werkt. Help me leren."  
-> – Salim tegen zijn AI-assistent
 
 ---
 
@@ -82,18 +71,6 @@ Ik gebruik Copilot, maar onder duidelijke voorwaarden:
 | Niet-standaard | `ft_split`, `ft_itoa`, `ft_strtrim`, ... | Extra functies voor reusability |
 | Bonus | `ft_lst*` | Linked list manipulatie |
 | Persoonlijk | `ft_str_replace`, `ft_uitoa_base`, ... | Mijn eigen tools voor future projects |
-
----
-
-## 🔁 Workflow: van thuis → school → thuis
-
-1. `git pull` vóór je begint  
-2. Werken in Vim  
-3. Testen met eigen testfiles  
-4. `git add . && git commit -m "Add ft_xxx"`  
-5. `git push` na je sessie  
-
-Zo hou ik alles gesynchroniseerd, of ik nu thuis of op Codam werk.
 
 ---
 
@@ -116,6 +93,3 @@ Ik werk elke week aan dit project. Nieuwe functies, testcases en optimalisaties 
 Dit project valt onder de GNU General Public License v3.0 – zie het LICENSE-bestand voor details.
 
 ---
-
-> _"Code moet je niet alleen begrijpen. Je moet het voelen."_  
-> — Salembaha aka sabahass
